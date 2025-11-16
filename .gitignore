@@ -1,6 +1,7 @@
 __pycache__/
 .log
 .fls
-.synctex.gz
+r4.synctex.gz
+r2.synctex.gz
 .aux
 .gz
