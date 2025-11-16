@@ -1,0 +1,145 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+% Pacotes basicos - maxima compatibilidade Windows
+\usepackage{geometry}
+\usepackage{times}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{graphicx,xcolor,comment,enumerate,multirow,multicol} 
+\usepackage{amsmath,amsthm,amsfonts,amssymb,dsfont,mathtools, array}
+
+\usepackage{enumitem}
+\setlist[itemize]{
+    itemsep=2pt,        % Espaçamento vertical entre itens
+    parsep=0pt,         % Espaçamento entre parágrafos dentro de um item
+    topsep=0pt,         % Espaçamento vertical antes do primeiro item da lista
+    partopsep=0pt,      % Espaçamento extra quando a lista começa no início de um parágrafo
+    leftmargin=1.5em    % Opcional: Ajusta a margem esquerda (se estiver muito indentado)
+}
+
+% Configuracao da pagina
+\geometry{
+    letterpaper,
+    left=0.75in,
+    right=0.75in,
+    top=0.75in,
+    bottom=1in
+}
+
+%% Edição confortável
+% Inclui o pacote xcolor com a opção para nomes de cores
+\usepackage[svgnames]{xcolor}
+% Para desativar comente a linha utiliando %
+%\input{cor.tex}
+
+% Configuracao das secoes
+\titleformat{\section}[block]
+{\normalfont\fontsize{10}{12}\bfseries}
+{\thesection.}{0.5em}{}
+
+% Remove numeracao das paginas
+\pagestyle{empty}
+
+% Configuracoes de espacamento
+\setlength{\columnsep}{0.25in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+% Titulo centralizado em coluna unica
+\twocolumn[
+\begin{center}
+    {\fontsize{16}{19}\selectfont\bfseries 
+    Experimento 4 - Diodo semicondutor}
+
+    \vspace{1cm}
+    
+    {\fontsize{11}{13}\selectfont 
+     Carlos Eduardo da S. Papa – 232013390, Ronan Cunha Freitas – 232013425 }
+
+    \vspace{0.35cm}   
+
+    {\fontsize{11}{13}\selectfont 
+    Turma 02}
+    
+    \vspace{1cm}  
+\end{center}
+]
+
+\section{OBJETIVOS}
+
+\hspace{1cm} O presente experimento 
+
+\section{MATERIAIS e EQUIPAMENTO UTILIZADOS}
+
+\begin{itemize}
+    \item aaaa;
+    \item aaaa;
+    \item aaaa;
+\end{itemize}
+
+% \vspace{.75cm}
+
+\section{PROCEDIMENTOS EXPERIMENTAIS}
+
+\hspace{1cm} Inicialmente, 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=7cm]{Imagem1.png}
+    \caption{Montagem do experimento}
+    \label{fig:montagem}
+\end{figure}
+
+\hspace{1cm} Após 
+
+\section{RESULTADOS EXPERIMENTAIS}
+
+\hspace{1cm} A partir ...
+
+\vspace{-.25cm}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Medições de Tensão em Função da Corrente DC}
+    \label{tab:medicoes_tensao}
+    \vspace{0.25cm}
+    \begin{tabular}{ccc}
+        \hline
+        \rule{0pt}{3ex}\textbf{Faixa Monocromática} & \textbf{Ângulo} [°] & \textbf{Tensão} [V]\\[5pt]
+        \hline
+        \rule{0pt}{3ex}Azul 1 & 12 & 0.65 \\
+        Azul 2 & 14 & 0.52 \\
+        Azul 3 & 16 & 0.51 \\
+        Verde & 20 & 0.32 \\
+        Laranja & 21 & 0.20 \\[5pt]
+        \hline
+    \end{tabular}
+\end{table}
+
+\section{ANALISE DOS RESULTADOS EXPERIMENTAIS}
+
+\noindent\textit{A. ...}
+
+\noindent\textit{B. ...}
+
+\section{Conclusão}
+
+
+
+\section{REFERENCIAS BIBLIOGRAFICAS}
+
+{\small
+\begin{enumerate}
+
+    \item CESCHIN, Artemis M. Apostila de materiais eletricos e magneticos.
+
+    \item REZENDE, Sergio M. Materiais e Dispositivos Eletrônicos. 2ª ed. São Paulo: Editora Livraria da Física, 2004.
+
+    \item HAYT, W. H. Jr. Eletromagnetismo. 6ª ed. Rio de Janeiro: LTC, 1995.
+    
+\end{enumerate}
+}
+
+\end{document}
