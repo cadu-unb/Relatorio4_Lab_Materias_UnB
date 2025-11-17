@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.1)  16 NOV 2025 23:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.1)  16 NOV 2025 23:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -434,9 +434,10 @@ pdfTeX warning: pdflatex (file ./imagens/figA.pdf): PDF inclusion: found PDF ver
 <imagens/figA.pdf, id=1, 614.295pt x 586.19pt>
 File: imagens/figA.pdf Graphic file (type pdf)
 <use imagens/figA.pdf>
-Package pdftex.def Info: imagens/figA.pdf  used on input line 104.
+Package pdftex.def Info: imagens/figA.pdf  used on input line 102.
 (pdftex.def)             Requested size: 142.26378pt x 135.75108pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
@@ -444,77 +445,72 @@ pdfTeX warning: pdflatex (file ./imagens/FigB.pdf): PDF inclusion: found PDF ver
 <imagens/FigB.pdf, id=2, 597.50829pt x 683.66617pt>
 File: imagens/FigB.pdf Graphic file (type pdf)
 <use imagens/FigB.pdf>
-Package pdftex.def Info: imagens/FigB.pdf  used on input line 119.
+Package pdftex.def Info: imagens/FigB.pdf  used on input line 117.
 (pdftex.def)             Requested size: 199.16928pt x 227.88467pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 <imagens/grafico_ID_x_VD.png, id=3, 722.7pt x 361.35pt>
 File: imagens/grafico_ID_x_VD.png Graphic file (type png)
 <use imagens/grafico_ID_x_VD.png>
-Package pdftex.def Info: imagens/grafico_ID_x_VD.png  used on input line 168.
+Package pdftex.def Info: imagens/grafico_ID_x_VD.png  used on input line 166.
 (pdftex.def)             Requested size: 227.62204pt x 113.80931pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-<fotos/1.jpg, id=5, 1606.0pt x 905.3825pt>
-File: fotos/1.jpg Graphic file (type jpg)
-<use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 181.
-(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: fotos/1.jpg Graphic file (type jpg)
-<use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 190.
-(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: fotos/1.jpg Graphic file (type jpg)
-<use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 199.
-(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: fotos/1.jpg Graphic file (type jpg)
-<use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 208.
-(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: fotos/1.jpg Graphic file (type jpg)
-<use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 217.
-(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
 [1{C:/Users/Cadu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./imagens/figA.pdf> <./imagens/FigB.pdf
+ <./imagens/figA.pdf>]
+<fotos/1.jpg, id=161, 1606.0pt x 905.3825pt>
+File: fotos/1.jpg Graphic file (type jpg)
+<use fotos/1.jpg>
+Package pdftex.def Info: fotos/1.jpg  used on input line 179.
+(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
+File: fotos/1.jpg Graphic file (type jpg)
+<use fotos/1.jpg>
+Package pdftex.def Info: fotos/1.jpg  used on input line 188.
+(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
-pdfTeX warning: pdflatex (file ./imagens/FigB.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: fotos/1.jpg Graphic file (type jpg)
+<use fotos/1.jpg>
+Package pdftex.def Info: fotos/1.jpg  used on input line 197.
+(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: fotos/1.jpg Graphic file (type jpg)
+<use fotos/1.jpg>
+Package pdftex.def Info: fotos/1.jpg  used on input line 206.
+(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: fotos/1.jpg Graphic file (type jpg)
+<use fotos/1.jpg>
+Package pdftex.def Info: fotos/1.jpg  used on input line 215.
+(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[2 <./imagens/grafico_ID_x_VD.png> <./fotos/1.jpg>]
-Underfull \vbox (badness 6380) has occurred while \output is active []
 
 
+[2 <./imagens/FigB.pdf> <./imagens/grafico_ID_x_VD.png> <./fotos/1.jpg>]
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 275--276
+Underfull \hbox (badness 3568) in paragraph at lines 273--274
 []\OT1/ptm/m/n/9 VISHAY, Mi-ni-a-ture Glass Pas-si-va-ted Junc-tion Rec-ti-fier,
  []
 
@@ -527,15 +523,15 @@ L3 programming layer <2025-06-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6759 strings out of 468220
- 108409 string characters out of 5433355
- 556952 words of memory out of 5000000
- 35192 multiletter control sequences out of 15000+600000
+ 6760 strings out of 468220
+ 108417 string characters out of 5433355
+ 557952 words of memory out of 5000000
+ 35193 multiletter control sequences out of 15000+600000
  639350 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,12n,65p,834b,263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r4.pdf (3 pages, 560465 bytes).
+Output written on r4.pdf (3 pages, 561244 bytes).
 PDF statistics:
  877 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
