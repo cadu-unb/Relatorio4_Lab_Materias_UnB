@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.1)  16 NOV 2025 23:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.1)  16 NOV 2025 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -425,7 +425,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
  (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 80.
  (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -434,7 +434,7 @@ pdfTeX warning: pdflatex (file ./imagens/figA.pdf): PDF inclusion: found PDF ver
 <imagens/figA.pdf, id=1, 614.295pt x 586.19pt>
 File: imagens/figA.pdf Graphic file (type pdf)
 <use imagens/figA.pdf>
-Package pdftex.def Info: imagens/figA.pdf  used on input line 102.
+Package pdftex.def Info: imagens/figA.pdf  used on input line 104.
 (pdftex.def)             Requested size: 142.26378pt x 135.75108pt.
 
 
@@ -444,7 +444,7 @@ pdfTeX warning: pdflatex (file ./imagens/FigB.pdf): PDF inclusion: found PDF ver
 <imagens/FigB.pdf, id=2, 597.50829pt x 683.66617pt>
 File: imagens/FigB.pdf Graphic file (type pdf)
 <use imagens/FigB.pdf>
-Package pdftex.def Info: imagens/FigB.pdf  used on input line 117.
+Package pdftex.def Info: imagens/FigB.pdf  used on input line 119.
 (pdftex.def)             Requested size: 199.16928pt x 227.88467pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -452,7 +452,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <imagens/grafico_ID_x_VD.png, id=3, 722.7pt x 361.35pt>
 File: imagens/grafico_ID_x_VD.png Graphic file (type png)
 <use imagens/grafico_ID_x_VD.png>
-Package pdftex.def Info: imagens/grafico_ID_x_VD.png  used on input line 164.
+Package pdftex.def Info: imagens/grafico_ID_x_VD.png  used on input line 168.
 (pdftex.def)             Requested size: 227.62204pt x 113.80931pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -460,44 +460,41 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <fotos/1.jpg, id=5, 1606.0pt x 905.3825pt>
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 177.
+Package pdftex.def Info: fotos/1.jpg  used on input line 181.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 186.
+Package pdftex.def Info: fotos/1.jpg  used on input line 190.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 195.
+Package pdftex.def Info: fotos/1.jpg  used on input line 199.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 204.
+Package pdftex.def Info: fotos/1.jpg  used on input line 208.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 213.
+Package pdftex.def Info: fotos/1.jpg  used on input line 217.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 5681) has occurred while \output is active []
 
 
 
@@ -512,9 +509,12 @@ pdfTeX warning: pdflatex (file ./imagens/FigB.pdf): PDF inclusion: multiple pdfs
 
 
 [2 <./imagens/grafico_ID_x_VD.png> <./fotos/1.jpg>]
+Underfull \vbox (badness 6380) has occurred while \output is active []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 269--270
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 275--276
 []\OT1/ptm/m/n/9 VISHAY, Mi-ni-a-ture Glass Pas-si-va-ted Junc-tion Rec-ti-fier,
  []
 
@@ -535,7 +535,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,12n,65p,834b,263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r4.pdf (3 pages, 560543 bytes).
+Output written on r4.pdf (3 pages, 560465 bytes).
 PDF statistics:
  877 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
