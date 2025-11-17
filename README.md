@@ -3,9 +3,7 @@ Este repositório contém os dados e o relatório 4
 
 ## Problemas atuais:
 
-1. Grágico -> tópico "Resultados Experimentais";
-
-2. Equações -> tópico "Resultados Experimentais";
+Tudo...
 
 ## Instruções Gerais:
 
