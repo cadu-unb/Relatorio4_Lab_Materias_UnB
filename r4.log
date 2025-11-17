@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.1)  16 NOV 2025 22:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.1)  16 NOV 2025 23:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -300,44 +300,69 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \extratabsurround=\skip67
 \backup@length=\skip68
 \ar@cellbox=\box104
-) (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count314
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2043.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2048.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2049.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2076.
+\U@D=\dimen195
+\l@unhyphenated=\language79
+ (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count315
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+)) (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip69
-\enit@outerparindent=\dimen195
+\enit@outerparindent=\dimen196
 \enit@toks=\toks33
 \enit@inbox=\box105
-\enit@count@id=\count314
-\enitdp@description=\count315
+\enit@count@id=\count316
+\enitdp@description=\count317
 ) (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\svgnam.def
 File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 48.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 49.
  (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count316
+\l__color_backend_stack_int=\count318
 ) (r4.aux
-
-LaTeX Warning: Label `fig:CircA' multiply defined.
-
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported  on input line 5.
 )
 \openout1 = `r4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -375,16 +400,16 @@ LaTeX Font Info:    ... okay on input line 48.
 
 (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen196
+\scratchcounter=\count319
+\scratchdimen=\dimen197
 \scratchbox=\box106
-\nofMPsegments=\count318
-\nofMParguments=\count319
+\nofMPsegments=\count320
+\nofMParguments=\count321
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen197
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
+\MPscratchCnt=\count322
+\MPscratchDim=\dimen198
+\MPnumerator=\count323
+\makeMPintoPDFobject=\count324
 \everyMPtoPDFconversion=\toks35
 ) (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -392,15 +417,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
  (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
  (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 79.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 78.
  (C:\Users\Cadu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -409,10 +434,9 @@ pdfTeX warning: pdflatex (file ./imagens/figA.pdf): PDF inclusion: found PDF ver
 <imagens/figA.pdf, id=1, 614.295pt x 586.19pt>
 File: imagens/figA.pdf Graphic file (type pdf)
 <use imagens/figA.pdf>
-Package pdftex.def Info: imagens/figA.pdf  used on input line 103.
+Package pdftex.def Info: imagens/figA.pdf  used on input line 102.
 (pdftex.def)             Requested size: 142.26378pt x 135.75108pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
@@ -420,20 +444,15 @@ pdfTeX warning: pdflatex (file ./imagens/FigB.pdf): PDF inclusion: found PDF ver
 <imagens/FigB.pdf, id=2, 597.50829pt x 683.66617pt>
 File: imagens/FigB.pdf Graphic file (type pdf)
 <use imagens/FigB.pdf>
-Package pdftex.def Info: imagens/FigB.pdf  used on input line 118.
+Package pdftex.def Info: imagens/FigB.pdf  used on input line 117.
 (pdftex.def)             Requested size: 199.16928pt x 227.88467pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 5939) has occurred while \output is active []
-
-
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <imagens/grafico_ID_x_VD.png, id=3, 722.7pt x 361.35pt>
 File: imagens/grafico_ID_x_VD.png Graphic file (type png)
 <use imagens/grafico_ID_x_VD.png>
-Package pdftex.def Info: imagens/grafico_ID_x_VD.png  used on input line 163.
+Package pdftex.def Info: imagens/grafico_ID_x_VD.png  used on input line 164.
 (pdftex.def)             Requested size: 227.62204pt x 113.80931pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -441,77 +460,82 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <fotos/1.jpg, id=5, 1606.0pt x 905.3825pt>
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 176.
+Package pdftex.def Info: fotos/1.jpg  used on input line 177.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 183.
+Package pdftex.def Info: fotos/1.jpg  used on input line 186.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 190.
+Package pdftex.def Info: fotos/1.jpg  used on input line 195.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: fotos/1.jpg Graphic file (type jpg)
-<use fotos/1.jpg>
-Package pdftex.def Info: fotos/1.jpg  used on input line 197.
-(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: fotos/1.jpg Graphic file (type jpg)
 <use fotos/1.jpg>
 Package pdftex.def Info: fotos/1.jpg  used on input line 204.
 (pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: fotos/1.jpg Graphic file (type jpg)
+<use fotos/1.jpg>
+Package pdftex.def Info: fotos/1.jpg  used on input line 213.
+(pdftex.def)             Requested size: 199.16928pt x 112.27455pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5681) has occurred while \output is active []
 
 
 
 [1{C:/Users/Cadu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./imagens/figA.pdf>]
+ <./imagens/figA.pdf> <./imagens/FigB.pdf
+
+pdfTeX warning: pdflatex (file ./imagens/FigB.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
 
 
-[2 <./imagens/FigB.pdf> <./imagens/grafico_ID_x_VD.png>]
-Underfull \hbox (badness 3568) in paragraph at lines 256--257
-[]\OT1/ptm/m/n/9 VISHAY, Minia-ture Glass Pas-si-vated Junc-tion Rec-ti-fier,
+[2 <./imagens/grafico_ID_x_VD.png> <./fotos/1.jpg>]
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 269--270
+[]\OT1/ptm/m/n/9 VISHAY, Mi-ni-a-ture Glass Pas-si-va-ted Junc-tion Rec-ti-fier,
  []
 
 
 
-
-
-[3 <./fotos/1.jpg>] (r4.aux)
+[3] (r4.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 5704 strings out of 468220
- 89310 string characters out of 5433355
- 528781 words of memory out of 5000000
- 34152 multiletter control sequences out of 15000+600000
+ 6759 strings out of 468220
+ 108409 string characters out of 5433355
+ 556952 words of memory out of 5000000
+ 35192 multiletter control sequences out of 15000+600000
  639350 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,65p,769b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,834b,263s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Cadu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r4.pdf (3 pages, 559032 bytes).
+Output written on r4.pdf (3 pages, 560543 bytes).
 PDF statistics:
  877 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
