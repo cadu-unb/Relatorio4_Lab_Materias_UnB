@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex r4"] 1763438382.35229 "r4.aux" "r4.bbl" "r4" 1763482165.62768 0
+["bibtex r4"] 1763438382.35229 "r4.aux" "r4.bbl" "r4" 1763485039.10906 0
   "./egbib.bib" 1763438373 2069 31f9816266fb2b67d522d67bf4ae6acd ""
   "./ieee_fullname.bst" 1763431803 19905 72b73f4cb1c51eaa1a7af8ecad2b6bfb ""
-  "r4.aux" 1763482164 7096 5976e4cc9f8727376a8be41f190f121c "pdflatex"
+  "r4.aux" 1763485038 7096 5976e4cc9f8727376a8be41f190f121c "pdflatex"
   (generated)
   "r4.bbl"
   "r4.blg"
   (rewritten before read)
-["pdflatex"] 1763482162.17243 "d:/Google Drive/9-2aGraduacao-UnB/Eng. Eletrica/LabMatMagEl/Relatorio4_Lab_Materias_UnB/r4.tex" "r4.pdf" "r4" 1763482165.62824 0
+["pdflatex"] 1763485036.24867 "d:/Google Drive/9-2aGraduacao-UnB/Eng. Eletrica/LabMatMagEl/Relatorio4_Lab_Materias_UnB/r4.tex" "r4.pdf" "r4" 1763485039.10958 0
   "C:/Users/rodri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1763432218 82666 6ae954049cbd801ff08c004e318ae5a8 ""
   "C:/Users/rodri/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1735483344 24225047 79ba64a58f0980dbe89b7908a8b8f46a ""
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -300,7 +300,7 @@
   "C:/Users/rodri/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "cvpr.sty" 1763431803 8420 65db8c64b863ba24238b8798dd5ceb60 ""
   "cvpr_eso.sty" 1763431803 3878 6aa7c08ff2621006e0603349e40a30a8 ""
-  "d:/Google Drive/9-2aGraduacao-UnB/Eng. Eletrica/LabMatMagEl/Relatorio4_Lab_Materias_UnB/r4.tex" 1763435830 8544 f20a6046a265203518a4fccd8e530b18 ""
+  "d:/Google Drive/9-2aGraduacao-UnB/Eng. Eletrica/LabMatMagEl/Relatorio4_Lab_Materias_UnB/r4.tex" 1763485035 8544 f20a6046a265203518a4fccd8e530b18 ""
   "eso-pic.sty" 1763431803 9460 d2935ae95b5cd343fcf5887ff530288d ""
   "fotos/reduced_2.mat4.jpg" 1763481917 182221 84fa771bfb2963da696c0b4b3264eb63 ""
   "fotos/reduced_3.mat4.jpg" 1763481917 212073 a2183b7feb69f74ef782a50bd6843744 ""
@@ -321,10 +321,10 @@
   "r4-objetivos.tex" 1763435386 1585 8eafda5fe4a034341cb10dd8ae70c113 ""
   "r4-procedimentos.tex" 1763482161 6152 f24e1bb2a89e37df32bb84cec05baf70 ""
   "r4-resultados.tex" 1763482161 14844 8be6e39835bd5ef91b1c655b668e8010 ""
-  "r4.aux" 1763482164 7096 5976e4cc9f8727376a8be41f190f121c "pdflatex"
+  "r4.aux" 1763485038 7096 5976e4cc9f8727376a8be41f190f121c "pdflatex"
   "r4.bbl" 1763438382 563 98511c4fb02fac793bfc6660631fbe28 "bibtex r4"
-  "r4.out" 1763482164 5542 9bd5088b3bccefa413e1f542db0ff0fe "pdflatex"
-  "r4.tex" 1763435830 8544 f20a6046a265203518a4fccd8e530b18 ""
+  "r4.out" 1763485038 5542 9bd5088b3bccefa413e1f542db0ff0fe "pdflatex"
+  "r4.tex" 1763485035 8544 f20a6046a265203518a4fccd8e530b18 ""
   (generated)
   "r4.aux"
   "r4.log"
