@@ -1,0 +1,47 @@
+\section{Script Python de plotagem dos dados da tabela}
+\label{app:hall}
+\begin{lstlisting}[language=Python, caption={Levantamento dos pontos da curva característica do diodo}, label={lst:hall}, basicstyle=\ttfamily\small, frame=single, breaklines=true, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue}, commentstyle=\color{green!50!black}, stringstyle=\color{orange}]
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Dados experimentais do procedimento 2a1 (polarizacao direta)
+# Tensao aplicada (V)
+Vd = np.array([0.10, 0.20, 0.30, 0.40,
+               0.50, 0.60, 0.70, 0.71])
+
+# Corrente medida (mA) -> conversao para A
+Id_mA = np.array([0.0, 0.0, 0.0, 0.0,
+                  0.7, 3.3, 29.7, 30.0])
+Id = Id_mA / 1000.0  # Converte de mA para A
+
+# Plot da curva I x V
+plt.figure(figsize=(8,5))
+
+# Pontos experimentais
+plt.scatter(Vd, Id, color='blue', label='Dados experimentais')
+
+# Linhas conectando os pontos
+plt.plot(Vd, Id, color='red', linestyle='-', linewidth=1.2, label='Conexao entre medidas consecutivas')
+
+# Rotulos junto aos pontos
+for x, y in zip(Vd, Id):
+    if y==0.03:
+        break;
+    plt.text(x + 0.005, y+0.001, f'({x:.2f} V, {y*1000:.1f} mA)',
+             fontsize=8, color='black', rotation=30)
+plt.text(x + 0.005, y-0.001, f'({0.71:.2f} V, {0.03*1000:.1f} mA)',
+             fontsize=8, color='black', rotation=30)
+
+plt.xlabel('Tensao no diodo $V_D$ (V)')
+plt.ylabel('Corrente no diodo $I_D$ (A)')
+plt.title('Curva Caracteristica do Diodo BY127 (Polarizacao Direta)')
+plt.grid(True)
+plt.legend()
+plt.tight_layout()
+plt.show()
+
+# Exibir valores no terminal
+print("Dados experimentais utilizados (V_D, I_D):")
+for x, y in zip(Vd, Id):
+    print(f"{x:.2f} V  ->  {y*1000:.1f} mA")
+\end{lstlisting}

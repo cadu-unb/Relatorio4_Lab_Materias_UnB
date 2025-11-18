@@ -1,278 +1,240 @@
-\documentclass[10pt,twocolumn,letterpaper]{article}
+%\documentclass[10pt,twocolumn,letterpaper]{article}
 
 % Pacotes basicos - maxima compatibilidade Windows
-\usepackage{geometry}
-\usepackage{times}
-\usepackage{titlesec}
-\usepackage{url}
-\usepackage{graphicx,xcolor,comment,enumerate,multirow,multicol} 
-\usepackage{amsmath,amsthm,amsfonts,amssymb,dsfont,mathtools, array}
-\usepackage[brazil]{babel}
+%\usepackage{geometry}
+%\usepackage{times}
+%\usepackage{titlesec}
+%\usepackage{url}
+%\usepackage{graphicx,xcolor,comment,enumerate,multirow,multicol} 
+%\usepackage{amsmath,amsthm,amsfonts,amssymb,dsfont,mathtools, array}
+%\usepackage[brazil]{babel}
 
-\usepackage{enumitem}
-\setlist[itemize]{
-    itemsep=2pt,        % Espaçamento vertical entre itens
-    parsep=0pt,         % Espaçamento entre parágrafos dentro de um item
-    topsep=0pt,         % Espaçamento vertical antes do primeiro item da lista
-    partopsep=0pt,      % Espaçamento extra quando a lista começa no início de um parágrafo
-    leftmargin=1.5em    % Opcional: Ajusta a margem esquerda (se estiver muito indentado)
-}
+%\usepackage{enumitem}
+%\setlist[itemize]{
+%    itemsep=2pt,        % Espaçamento vertical entre itens
+%    parsep=0pt,         % Espaçamento entre parágrafos dentro de um item
+%    topsep=0pt,         % Espaçamento vertical antes do primeiro item da lista
+%    partopsep=0pt,      % Espaçamento extra quando a lista começa no início de um parágrafo
+%    leftmargin=1.5em    % Opcional: Ajusta a margem esquerda (se estiver muito indentado)
+%}
 
 % Configuracao da pagina
-\geometry{
-    letterpaper,
-    left=0.75in,
-    right=0.75in,
-    top=0.75in,
-    bottom=1in
+%\geometry{
+%    letterpaper,
+%    left=0.75in,
+%    right=0.75in,
+%    top=0.75in,
+%    bottom=1in
+%}
+
+% Force UTF-8 if your editor saves in UTF-8
+\UseRawInputEncoding
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{enumitem}
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx, color, xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage[brazil, english]{babel}
+\setlength{\headheight}{1.5cm}
+\usepackage{threeparttable}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{patterns}
+\usepackage{circuitikz}
+\usepackage{caption}
+\captionsetup[table]{name=Table}
+\renewcommand{\thetable}{\arabic{table}}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\setlist[itemize]{itemsep=0.3em, parsep=0pt, topsep=0.5em}
+
+\fancypagestyle{plain}{%\fancyhf{}%}
+\lhead{\includegraphics[width=5cm,height=2cm]{logoFT.png}}
+\rhead{\includegraphics[width=5cm,height=2cm]{logoUnB.png}}
+
+\renewcommand{\headrulewidth}{1pt}%
 }
+
+% Changing the caption and 'References' names to Portuguese.
+\addto\captionsenglish{
+  \renewcommand{\figurename}{Figura}
+  \renewcommand{\tablename}{Tabela}
+  \renewcommand{\refname}{Referências bibliográficas}
+}
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Código}
+\renewcommand{\abstractname}{Resumo}
+
+
+% to-do: Using fontenc with T1 font encoding allows \hyphenation to take words with accents
+% as arguments. However, fontenc with T1 mess up with words containing 'ã' in all \subsection{}
+% commands.
+% If someone knows how to fix it, tell me!
+%
+%\usepackage[T1]{fontenc}
+
+% Put the words not correctly hyphenated down here. Words with accents must
+% be manually hyphenated in the text itself using the '\-' separator. See the examples
+% throughout this template.
+\hyphenation{co-e-ren-te u-sa-do de-li-mi-ta-do-res a-cer-ca va-lo-res cor-res-pon-den-te re-fe-ren-ci-a-das co-lu-na co-lu-nas em-bo-ra u-ti-li-da-de pro-ce-di-men-to ex-pe-ri-men-to fi-gu-ras}
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=true]{hyperref}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+%\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+%\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+% \ifcvprfinal\pagestyle{empty}\fi
+%\setcounter{page}{1}
+
 
 %% Edição confortável
 % Inclui o pacote xcolor com a opção para nomes de cores
-\usepackage[svgnames]{xcolor}
+%\usepackage[svgnames]{xcolor}
 % Para desativar comente a linha utiliando %
 %\input{cor.tex}
 
 % Configuracao das secoes
-\titleformat{\section}[block]
-{\normalfont\fontsize{10}{12}\bfseries}
-{\thesection.}{0.5em}{}
+%\titleformat{\section}[block]
+%{\normalfont\fontsize{10}{12}\bfseries}
+%{\thesection.}{0.5em}{}
 
 % Remove numeracao das paginas
-\pagestyle{empty}
+%\pagestyle{empty}
 
 % Configuracoes de espacamento
-\setlength{\columnsep}{0.25in}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt}
+%\setlength{\columnsep}{0.25in}
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt}
 
-\begin{document}
+%\begin{document}
 
 % Titulo centralizado em coluna unica
-\twocolumn[
-\begin{center}
-    {\fontsize{16}{19}\selectfont\bfseries 
-    Experimento 4 - Diodo semicondutor}
+%\twocolumn[
+%\begin{center}
+%    {\fontsize{16}{19}\selectfont\bfseries 
+%    Experimento 4 - Diodo semicondutor}
 
-    \vspace{1cm}
+%    \vspace{1cm}
     
-    {\fontsize{11}{13}\selectfont 
-     Carlos Eduardo da S. Papa – 232013390, Ronan Cunha Freitas – 232013425 }
+%    {\fontsize{11}{13}\selectfont 
+%     Carlos Eduardo da S. Papa – 232013390, Ronan Cunha Freitas – 232013425 }
 
-    \vspace{0.25cm}   
+%    \vspace{0.25cm}   
 
-    {\fontsize{11}{13}\selectfont 
-    Turma 02}
+%    {\fontsize{11}{13}\selectfont 
+%    Turma 02}
     
-    \vspace{.25cm} 
-\end{center}
-]
+%    \vspace{.25cm} 
+%\end{center}
+%]
 
-\section{OBJETIVOS}
+\begin{document}
+%%%%%%%%% TITLE
+\title{4º experimento - Diodo semicondutor}
 
-\hspace{1cm} Levantar a curva característica $I_D\times V_D$ para o diodo BY127 e analisar a curva de resposta para os modelos de circuito com esse diodo.
-
-\vspace{.25cm}
-
-\section{MATERIAIS e EQUIPAMENTO UTILIZADOS}
-
-\begin{itemize}
-    \item 2 diodos BY127;
-    \item Fonte de tensão;
-    \item Gerador de função;
-    \item Osciloscópio;
-    \item 2 multímetros;
-    \item Resistor de $1\,k\Omega$;
-    \item Capacitor de $10\,\mu F$
-    \item Cabos para conexão e protoboard;
-\end{itemize}
-
-\vspace{.25cm}
-
-\section{PROCEDIMENTOS EXPERIMENTAIS}
-
-\noindent\textit{A. Curva característica do diodo BY127.}
-
-\hspace{1cm}Após a montagem do circuito (Figura 1), procedeu-se à variação da queda de tensão sobre o diodo (VD) em incrementos de 100 mV. Para cada incremento, foi registrada a respectiva corrente (ID) que atravessava o componente. Estabeleceu-se um limite máximo de corrente de 40 mA, visando preservar a integridade física do diodo.
-
-\hspace{1cm}Para concluir esta etapa, os terminais da fonte de tensão foram invertidos, repetindo-se a metodologia para a condição de polarização reversa do diodo.
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=5cm]{imagens/figA.pdf}
-    \caption{Circuito do procedimento A}
-    \label{fig:CircA}
-\end{figure}
-
-\noindent\textit{B. Análise de Circuitos com diodos BY127.}
-
-\hspace{1cm}Nesta etapa, realizou-se a montagem de cada circuito proposto na Figura 2. Em todas as configurações, a fonte de alimentação forneceu um sinal senoidal com amplitude de 8 Vpp (pico a pico) e frequência de 100 Hz.
-
-\hspace{1cm}Para cada montagem, foram registrados (fotografados) os sinais de entrada e de saída observados no osciloscópio. Foi dada especial atenção à mensuração da atenuação e da defasagem entre as respectivas formas de onda.
-
-\vspace{-.5cm}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=7cm]{imagens/FigB.pdf}
-    \caption{Circuitos do procedimento B}
-    \label{fig:CircB}
-\end{figure}
-
-\vspace{-.75cm}
-
-\section{RESULTADOS EXPERIMENTAIS}
-
-\noindent\textit{A. Curva característica $I_D\times V_D$.}
-
-\hspace{1cm}A execução da Parte A do procedimento permitiu a coleta dos dados necessários para o levantamento da curva característica do diodo. Os valores medidos estão compilados na Tabela I, e a curva $I_D \times V_D$ resultante é apresentada graficamente na Figura 3.
-
-% \vspace{-.25cm}
-
-\begin{table}[!h]
-    \centering
-    \caption{Medidas Obtidas para Obter a Curva}
-    \label{tab:medidas}
-    \vspace{0.25cm}
-    \begin{tabular}{ccc}
-        \hline
-        \rule{0pt}{3ex} $ V_D \,\,[V]$ & & $ I_D \,\, [mA]$ \\[5pt]
-        \hline
-        \rule{0pt}{3ex}-0.8 & & 0 \\
-        -0.7 & & 0 \\
-        -0.6 & & 0 \\
-        -0.5 & & 0 \\
-        -0.4 & & 0 \\
-        -0.3 & & 0 \\
-        -0.2 & & 0 \\
-        -0.1 & & 0 \\
-        0 & & 0 \\
-        0.1 & & 0 \\
-        0.2 & & 0 \\
-        0.3 & & 0 \\
-        0.4 & & 0 \\
-        0.5 & & 0.7 \\
-        0.6 & & 3.3 \\
-        0.7 & & 29.7 \\
-        0.77 & & 30.4 \\[5pt]
-        \hline
-    \end{tabular}
-\end{table}
-
-\vspace{-.25cm}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=8cm]{imagens/grafico_ID_x_VD.png}
-    \caption{Curva característica $V_D\times I_D$}
-    \label{fig:VD_ID}
-\end{figure}
-
-\noindent\textit{B. Análise de Circuitos com diodos BY127.}
-
-\hspace{1cm}Durante a execução da Parte B, foram obtidas as formas de onda de tensão de entrada e de saída para cada circuito analisado. Os valores medidos de atenuação e defasagem, observados nas Figuras 4 a 8, foram registrados e estão sumarizados na Tabela II.
-
-% \vspace{-.25cm}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=7cm]{fotos/1.jpg}
-    \caption{Circuito 1}
-    \label{fig:circ1}
-\end{figure}
-
-% \vspace{-.25cm}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=7cm]{fotos/1.jpg}
-    \caption{Circuito 2}
-    \label{fig:circ2}
-\end{figure}
-
-% \vspace{-.25cm}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=7cm]{fotos/1.jpg}
-    \caption{Circuito 3}
-    \label{fig:circ3}
-\end{figure}
-
-% \vspace{-.25cm}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=7cm]{fotos/1.jpg}
-    \caption{Circuito 4}
-    \label{fig:circ4}
-\end{figure}
-
-% \vspace{-.25cm}
-
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=7cm]{fotos/1.jpg}
-    \caption{Circuito 5}
-    \label{fig:circ5}
-\end{figure}
-
-% \vspace{-.25cm}
-
-\begin{table}[!h]
-    \centering
-    \caption{Defasagem e Atenuação dos Circuitos}
-    \label{tab:defasagem}
-    \vspace{0.25cm}
-    \begin{tabular}{ccc}
-        \hline
-        \rule{0pt}{3ex}\textbf{Circuito} & \textbf{Defasagem} [ms] & \textbf{Atenuação} [V]\\[5pt]
-        \hline
-        \rule{0pt}{3ex} 1 &  & \\
-        2 &  & \\
-        3 & - & - \\
-        4 &  & \\
-        5 &  & \\[5pt]
-        \hline
-    \end{tabular}
-\end{table}
-
-\section{ANALISE DOS RESULTADOS EXPERIMENTAIS}
-
-\noindent\textit{A. Curva característica do diodo BY127.}
-
-\hspace{1cm}A análise dos valores apresentados na Tabela I e da curva mostrada na Figura 3 evidencia o comportamento típico do diodo BY127 sob diferentes condições de polarização. 
-
-\hspace{1cm}Observa-se que, quando submetido à polarização direta, o dispositivo inicia a condução de corrente de forma significativa apenas para tensões superiores a aproximadamente $0.6 \, V$. Por outro lado, para valores de $V_D$ inferiores a zero, correspondentes à polarização reversa, não foi registrada condução apreciável, mantendo-se a corrente praticamente nula.
-
-\hspace{1cm}Esse comportamento está em consonância com as especificações presentes no datasheet do BY127, que indicam tensão de limiar entre $0.6 \, V$ e $0.8 \, V$ e corrente desprezível na região de polarização reversa. Assim, os resultados obtidos confirmam o regime de operação esperado para esse tipo de diodo retificador.
-
-\noindent\textit{B. Análise de Circuitos com diodos BY127.}
-
-\hspace{1cm}Os resultados referentes à segunda parte do experimento, sintetizados na Tabela II, permitem observar que o diodo real pode ser interpretado como um diodo ideal acrescido de uma queda de tensão em série. Essa característica manifesta-se diretamente na atenuação verificada entre as tensões de entrada e saída, evidenciando o comportamento não ideal do componente.
-
-\hspace{1cm}A Figura 4 ilustra o funcionamento típico de um retificador de meia onda: a condução ocorre apenas durante a semiciclo positivo, enquanto a polarização reversa do diodo bloqueia a passagem de corrente no semiciclo negativo. Já a Figura 5 apresenta maior atenuação relativa, resultado da utilização de dois diodos em série, cada um contribuindo com sua respectiva queda de tensão.
-
-\hspace{1cm}Na configuração ilustrada na Figura 6, os diodos encontram-se polarizados de forma oposta, o que impede a condução em ambos os semiciclos e faz com que o circuito se comporte como um circuito aberto, independentemente da tensão aplicada. Em contraste, no caso mostrado na Figura 8, os diodos estão dispostos em paralelo, de modo que o caminho de condução depende da polaridade da fonte: o diodo superior conduz na polarização direta e o inferior conduz na polarização reversa.
-
-\hspace{1cm}Por fim, o circuito correspondente à Figura 7 representa um retificador com capacitor de filtro, também conhecido como retificador de pico. Nesse arranjo, considerando $V_{in}$, $V_{out}$ e $V_t$ como as tensões de entrada, saída e queda no diodo, respectivamente, observam-se dois regimes distintos. Inicialmente, quando $V_{in} > V_{out}$, o diodo conduz e o capacitor carrega até o valor máximo da onda de entrada. Em seguida, com o diodo despolarizado, o capacitor passa a fornecer energia à carga, produzindo uma descarga exponencial dada por $V_{out} = V_{in} \, e^{-t/RC}$. Quando a tensão de entrada volta a superar a tensão no capacitor, o ciclo de carga se reinicia.
-
-\section{Conclusão}
-
-\hspace{1cm}Os resultados obtidos e a análise subsequente permitiram compreender de forma abrangente o comportamento do diodo BY127 tanto em regime de polarização direta quanto reversa. Evidenciou-se, ainda, a versatilidade do componente em aplicações de circuitos eletrônicos, especialmente no contexto de retificação e condicionamento de sinais. A comparação entre os dados experimentais e a teoria consolidada mostrou-se coerente, reforçando a confiabilidade do procedimento adotado e a adequação dos modelos teóricos empregados.
-
-\section{REFERENCIAS BIBLIOGRAFICAS}
-
-{\small
-\begin{enumerate}
-
-    \item CESCHIN, Artemis M. Apostila de materiais eletricos e magneticos.
-
-    \item REZENDE, Sergio M. Materiais e Dispositivos Eletrônicos. 2ª ed. São Paulo: Editora Livraria da Física, 2004.
-
-    \item VISHAY, Miniature Glass Passivated Junction Rectifier, BY127MGP datasheet, 12/03/2012.
-    
-\end{enumerate}
+\author{Carlos Eduardo da Silva Papa\\
+% To save space, use either the email address or home page, not both
+{\tt\small 232013390@aluno.unb.br}\\
+% Matrícula do primeiro autor
+{\tt\small 23/2013390}\\
+% Turma
+{\tt\small Turma 2B}
+\and
+Ronan Cunha Freitas\\
+{\tt\small 232013425@aluno.unb.br}\\
+% Matrícula do segundo autor
+{\tt\small 23/2013425}\\
+% Turma
+{\tt\small Turma 2B}
+\and
+Rodrigo Cardoso da Silva\\
+{\tt\small 231031699@aluno.unb.br}\\
+% Matrícula do terceiro autor, se houver
+{\tt\small 23/1031699}\\
+% Turma
+{\tt\small Turma 2B}
 }
+
+\maketitle
+\begin{abstract}
+Este relatório apresenta a caracterização elétrica de um diodo semicondutor do tipo BY127 por meio do levantamento de suas curvas $I_D\times V_D$ em polarização direta e reversa, bem como a análise funcional de múltiplas configurações de circuitos utilizando diodos retificadores sob sinal senoidal de 100 Hz e 8 Vpp. O trabalho investiga o comportamento dinâmico, a condução seletiva, a retificação e os efeitos de topologias como série, antissérie, antiparalelo e filtragem por capacitor. Todos os resultados são discutidos com base nos fundamentos teóricos da junção PN, leis de semicondutores e formas de onda obtidas experimentalmente.
+\end{abstract}
+
+%%%%%%%%%%%% OBJETIVOS %%%%%%%%%%%%%
+\input{r4-objetivos.tex} %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%% INTRODUÇÃO %%%%%%%%%%%%%
+\input{r4-intro.tex}  %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%% MATERIAIS %%%%%%%%%%%%%
+\input{r4-materiais.tex} %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%% PROCEDIMENTOS %%%%%%%%%%%%
+\input{r4-procedimentos.tex} %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%% RESULTADOS E ANÁLISE DOS RESULTADOS %%%%%%%%%%%
+\input{r4-resultados.tex}  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%% CONCLUSÕES %%%%%%%%%%%%%%
+\input{r4-conclusoes.tex} %%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%% REFERÊNCIAS BIBLIOGRÁFICAS %%%%%%%%%%%%%%%%%%%%%%%%%
+{\small \bibliography{egbib} \bibliographystyle{ieee_fullname} %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \begin{enumerate}
+%     \item S. M. Rezende, \textit{A Física de Materiais e Dispositivos Eletrônicos}. Recife, Brazil: Editora da UFPE, 1996.
+%     \item B. G. Streetman, \textit{Solid State Electronic Devices}, 4th ed. Englewood Cliffs, NJ, USA: Prentice-Hall, 1995.
+%     \item Charles Kittel, \textit{Introduction to Solid State Physics}, 7th ed. New York, NY, USA: John Wiley \& Sons, 1996.
+%     \item S. M. Sze, \textit{Semiconductor Devices: Physics and Technology}. New York, NY, USA: John Wiley \& Sons, 1985.
+%     \item R. Dalven, \textit{Introduction to Applied Solid State Physics}. New York, NY, USA: Plenum Press, 1981.
+%     \item Robert Eisberg and Robert Resnick, \textit{Física Quântica}. Rio de Janeiro, Brazil: Editora Campus Ltda, 1979.
+%     \item \textit{Apostila Materiais Elétricos e Magnéticos}, Universidade de Brasília, Departamento de Engenharia Elétrica, Artemis Marti Ceschin.
+    
+% \end{enumerate}
+
+%\section{REFERENCIAS BIBLIOGRAFICAS}
+
+%{\small
+%\begin{enumerate}
+%    \item CESCHIN, Artemis M. Apostila de materiais eletricos e magneticos.
+%    \item REZENDE, Sergio M. Materiais e Dispositivos Eletrônicos. 2ª ed. São Paulo: Editora Livraria da Física, 2004.
+%    \item VISHAY, Miniature Glass Passivated Junction Rectifier, BY127MGP datasheet, 12/03/2012.
+%\end{enumerate}
+%}
+
+%%%%%% APENDICES %%%%%%%%
+\appendix %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% SCRIPT PYTHON %%%%%%%%%%%%%%%%
+\input{r4-apendice-script.tex} %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}

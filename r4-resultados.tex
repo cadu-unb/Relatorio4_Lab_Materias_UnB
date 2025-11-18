@@ -1,0 +1,328 @@
+\section{Resultados e Análise dos Resultados}
+Esta seção apresenta os resultados obtidos experimentalmente no levantamento das curvas características do diodo BY127 (Procedimento 2a) e na análise temporal das cinco montagens retificadoras submetidas a sinal senoidal (Procedimento 2b). São discutidos tanto os aspectos quantitativos quanto qualitativos, relacionando-se os fenômenos observados com os modelos teóricos estudados.
+
+\subsection{Procedimento 2a: Curvas Características $I_D \times V_D$}
+
+A Figura~\ref{fig:arranjo2a} apresenta o arranjo experimental utilizado para o levantamento da curva característica do diodo BY127, incluindo a fonte DC, multímetros e conexões sobre a protoboard. A Figura~\ref{fig:arranjo2a_proto} mostra a protoboard após conclusão da montagem.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\linewidth]{fotos/reduced_arranjo_2a.jpeg}
+\caption{Arranjo experimental utilizado no Procedimento 2a.}
+\label{fig:arranjo2a}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\linewidth]{fotos/reduced_arranjo_2a_proto.jpeg}
+\caption{Vista da protoboard após montagem do arranjo do Procedimento 2a.}
+\label{fig:arranjo2a_proto}
+\end{figure}
+
+Os dados experimentais foram obtidos em incrementos de tensão de aproximadamente \(0{,}1~\mathrm{V}\), sendo a corrente medida diretamente no circuito. %Os valores foram fornecidos em arquivo separado (\textit{dados\_exp4.csv}) e utilizados para construção das curvas apresentadas a seguir.
+
+%\noindent\textit{A. Curva característica $I_D\times V_D$.}
+\subsubsection{a) Polarização direta (2a1)}
+
+%\hspace{1cm}A execução da Parte A do procedimento permitiu a coleta dos dados necessários para o levantamento da curva característica do diodo. Os valores medidos estão compilados na Tabela I, e a curva $I_D \times V_D$ resultante é apresentada graficamente na Figura 3.
+A Tabela~\ref{tab:direta} apresenta os valores experimentais de tensão e corrente obtidos no levantamento da curva característica do diodo BY127.
+% \vspace{-.25cm}
+
+\begin{table}[!h]
+    \centering
+    \caption{Medidas Realizadas para Levantar a Curva}
+    \label{tab:medidas}
+    \vspace{0.25cm}
+    \begin{tabular}{ccc}
+        \hline
+        \rule{0pt}{3ex} $ V_D \,\,[V]$ & & $ I_D \,\, [mA]$ \\[5pt]
+        \hline
+        \rule{0pt}{3ex}-0.8 & & 0 \\
+        %-0.7 & & 0 \\
+        %-0.6 & & 0 \\
+        %-0.5 & & 0 \\
+        %-0.4 & & 0 \\
+        %-0.3 & & 0 \\
+        %-0.2 & & 0 \\
+        %-0.1 & & 0 \\
+        0 & & 0 \\
+        0.1 & & 0 \\
+        0.2 & & 0 \\
+        0.3 & & 0 \\
+        0.4 & & 0 \\
+        0.5 & & 0.7 \\
+        0.6 & & 3.3 \\
+        0.7 & & 29.7 \\
+        %0.77 & & 30.4 \\[5pt]
+        0.71 & & 30.0 \\[5pt]
+        \hline
+    \end{tabular}
+    \label{tab:direta}
+\end{table}
+
+A Figura~\ref{fig:curvaIV} mostra a relação exponencial entre a corrente e a tensão direta, evidenciando o início da condução aproximadamente em $0{,}5~\mathrm{V}$.
+
+\begin{figure*}[h]
+\centering
+\includegraphics[width=0.9\linewidth]{imagens/PNG/reduced_exp4_curvaID.png}
+\caption{Curva característica experimental $I_D \times V_D$ do diodo BY127.}
+\label{fig:curvaIV}
+\end{figure*}
+
+A análise da Tabela~\ref{tab:direta} revela que o diodo inicia sua condução significativa a partir de aproximadamente:
+\[
+V_{\mathrm{TH}} \approx 0{,}5~\mathrm{V},
+\]
+valor compatível com diodos de silício de junção retificadora. Acima desse ponto, observa-se crescimento exponencial da corrente, conforme descrito pela equação de Shockley.
+
+A curva resultante apresenta a região não condutora, a região de transição e a região condutora, reproduzindo adequadamente o comportamento teórico esperado.
+%\vspace{-.25cm}
+
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=8cm]{imagens/grafico_ID_x_VD.png}
+%    \caption{Curva característica $V_D\times I_D$}
+%    \label{fig:VD_ID}
+%\end{figure}
+
+\subsubsection{b) Polarização reversa (2a2)}
+
+A Tabela~\ref{tab:reversa} apresenta os dados medidos com o diodo invertido.
+
+\begin{table}[h]
+\centering
+\caption{Dados experimentais da polarização reversa (Procedimento 2a2).}
+\label{tab:reversa}
+\begin{tabular}{c c}
+\hline
+\textbf{$V_D$ (V)} & \textbf{$I_D$ (mA)} \\
+\hline
+% Insira aqui a tabela completa conforme o arquivo
+% Exemplo:
+0.1 & 0.0 \\
+0.2 & 0.0 \\
+0.5 & 0.0 \\
+1.0 & 0.0 \\
+2.0 & 0.0 \\
+3.0 & 0.0 \\
+5.0 & 0.0 \\
+10.0 & 0.0 \\
+20.0 & 0.0 \\
+30.0 & 0.0 \\
+40.0 & 0.0 \\
+50.0 & 0.0 \\
+\hline
+\end{tabular}
+\end{table}
+
+Em todos os pontos medidos, a corrente reversa permaneceu essencialmente nula, indicando que o diodo operou muito abaixo da tensão máxima reversa permitida (\(800~\mathrm{V}\)). %Este resultado confirma o regime de saturação reversa extremamente baixo característico de diodos retificadores de potência.
+
+\subsection{Procedimento 2b: Análise Temporal das Montagens Senoidais}
+
+Nesta etapa, analisou-se a forma de onda sobre o resistor de carga para cada uma das cinco configurações de circuitos. A tensão aplicada foi senoidal, com amplitude de \(8~\mathrm{V_{pp}}\) e frequência de \(100~\mathrm{Hz}\). As figuras abaixo apresentam as formas de onda obtidas no osciloscópio.%espaço reservado para inclusão das fotografias do osciloscópio.
+
+\subsubsection{Circuito 1: Diodo em série (Retificação de meia onda)}
+
+A saída corresponde apenas ao semiciclo positivo da senoide, sendo o semiciclo negativo completamente bloqueado. A forma de onda apresenta valor de pico reduzido devido à queda direta do diodo.
+
+%\textbf{Espaço reservado para foto do osciloscópio:}
+
+
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+\includegraphics[scale=0.133]{fotos/reduced_2.mat4.jpg}
+%\vspace{2cm}
+%\centering\textit{Inserir aqui a foto correspondente ao Circuito 1.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 1 (meia onda).}
+\end{figure}
+
+\textbf{Atraso de condução medido:}
+\[
+t_{\mathrm{delay,1}} = \underline{\hspace{2cm}}~\mathrm{ms}
+\]
+
+\subsubsection{Circuito 2: Dois diodos em série}
+
+Com dois diodos em série, a queda total de condução é aproximadamente:
+\[
+V_{\gamma} \approx 2 \times 0{,}7~\mathrm{V} \approx 1{,}4~\mathrm{V}.
+\]
+
+A forma de onda é similar à do circuito 1, porém a condução inicia apenas quando a tensão da fonte supera o valor acima.
+
+%\textbf{Espaço reservado para foto:}
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+%\vspace{2cm}
+\includegraphics[scale=0.133]{fotos/reduced_8.jpg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 2.}
+\end{figure}
+
+\[
+t_{\mathrm{delay,2}} = \underline{\hspace{2cm}}~\mathrm{ms}
+\]
+
+\subsubsection{Circuito 3: Dois diodos em antissérie}
+
+Nesta configuração, cada semiciclo é bloqueado por um dos diodos, resultando em praticamente nenhuma condução. Apenas pequenos pulsos podem ser observados devido à capacitância de junção.
+
+%\textbf{Espaço reservado para foto:}
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+%\vspace{2cm}
+\includegraphics[scale=0.133]{fotos/reduced_3.mat4.jpg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 3.}
+\end{figure}
+
+\[
+t_{\mathrm{delay,3}} = \underline{\hspace{2cm}}~\mathrm{ms}
+\]
+
+\subsubsection{Circuito 4: Dois diodos em antiparalelo}
+
+Um diodo conduz no semiciclo positivo e o outro conduz no semiciclo negativo. A forma de onda resultante apresenta ambos os semiciclos, porém recortados no início devido à queda \(V_{\gamma}\).
+
+%\textbf{Espaço reservado para foto:}
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+%\vspace{2cm}
+\includegraphics[scale=0.133]{fotos/reduced_5.mat4.jpg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 4.}
+\end{figure}
+
+\[
+t_{\mathrm{delay,4}} = \underline{\hspace{2cm}}~\mathrm{ms}
+\]
+
+\subsubsection{Circuito 5: Diodo com filtro capacitivo (meia onda filtrada)}
+
+Com a inclusão de um capacitor em paralelo ao resistor, observa-se um processo de carga rápida durante a condução e descarga lenta entre os picos, produzindo tensão suavizada e ondulação (\textit{ripple}) reduzida.
+
+%\textbf{Espaço reservado para foto:}
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+%\vspace{2cm}
+\includegraphics[scale=0.133]{fotos/reduced_4.mat4.jpg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 5.}
+\end{figure}
+
+\[
+t_{\mathrm{delay,5}} = \underline{\hspace{2cm}}~\mathrm{ms}
+\]
+
+Para esse circuito, cabe observação quanto à tensão do pico superior, que apresenta uma distorção, quando, na verdade, esperava-se um espelhamento do semi-ciclo inferior. Conforme discutido em laboratório, isso ocorre devido ao descasamento de impedância entre o osciloscópio e a carga representada pelo circuito medido, o que propicia reflexões de ondas eletromagnéticas no circuito e, consequentemente, a distorção observada.
+
+%\noindent\textit{B. Análise de Circuitos com diodos BY127.}
+
+%\hspace{1cm}Durante a execução da Parte B, foram obtidas as formas de onda de tensão de entrada e de saída para cada circuito analisado. Os valores medidos de atenuação e defasagem, observados nas Figuras 4 a 8, foram registrados e estão sumarizados na Tabela II.
+
+%% \vspace{-.25cm}
+
+%\begin{figure}[!h]
+%    \centering
+%    \includegraphics[width=7cm]{fotos/1.jpg}
+%    \caption{Circuito 1}
+%    \label{fig:circ1}
+%\end{figure}
+
+%% \vspace{-.25cm}
+
+%\begin{figure}[!h]
+%    \centering
+%    \includegraphics[width=7cm]{fotos/1.jpg}
+%    \caption{Circuito 2}
+%    \label{fig:circ2}
+%\end{figure}
+
+% \vspace{-.25cm}
+
+%\begin{figure}[!h]
+%    \centering
+%    \includegraphics[width=7cm]{fotos/1.jpg}
+%    \caption{Circuito 3}
+%    \label{fig:circ3}
+%\end{figure}
+
+% \vspace{-.25cm}
+
+%\begin{figure}[!h]
+%    \centering
+%    \includegraphics[width=7cm]{fotos/1.jpg}
+%    \caption{Circuito 4}
+%    \label{fig:circ4}
+%\end{figure}
+
+% \vspace{-.25cm}
+
+%\begin{figure}[!h]
+%    \centering
+%    \includegraphics[width=7cm]{fotos/1.jpg}
+%    \caption{Circuito 5}
+%    \label{fig:circ5}
+%\end{figure}
+
+% \vspace{-.25cm}
+
+De forma resumida, a Tabela~\ref{tab:defasagem} apresenta os valores de defasagem e atenuação medidos para cada circuito analisado.
+
+\begin{table}[!h]
+    \centering
+    \caption{Defasagem e Atenuação dos Circuitos}
+    \label{tab:defasagem}
+    \vspace{0.25cm}
+    \begin{tabular}{ccc}
+        \hline
+        \rule{0pt}{3ex}\textbf{Circuito} & \textbf{Defasagem} [ms] & \textbf{Atenuação} [V]\\[5pt]
+        \hline
+        \rule{0pt}{3ex} 1 &  & \\
+        2 &  & \\
+        3 & - & - \\
+        4 &  & \\
+        5 &  & \\[5pt]
+        \hline
+    \end{tabular}
+\end{table}
+
+%\section{ANALISE DOS RESULTADOS EXPERIMENTAIS}
+\subsection{Análise dos Resultados Experimentais}
+
+\noindent\textit{A. Curva característica do diodo BY127.}
+
+\hspace{1cm}A análise dos valores apresentados na Tabela~\ref{tab:direta} e da curva mostrada na Figura~\ref{fig:curvaIV} evidencia o comportamento típico do diodo BY127 sob diferentes condições de polarização. 
+
+\hspace{1cm}Observa-se que, quando submetido à polarização direta, o dispositivo inicia a condução de corrente de forma significativa apenas para tensões superiores a aproximadamente $0.6 \, V$. Por outro lado, para valores de $V_D$ inferiores a zero, correspondentes à polarização reversa, não foi registrada condução apreciável, mantendo-se a corrente praticamente nula.
+
+\hspace{1cm}Esse comportamento está em consonância com as especificações presentes no datasheet do BY127, que indicam tensão de limiar entre $0.6 \, V$ e $0.8 \, V$ e corrente desprezível na região de polarização reversa. Assim, os resultados obtidos confirmam o regime de operação esperado para esse tipo de diodo retificador.
+
+\noindent\textit{B. Análise de Circuitos com diodos BY127.}
+
+\hspace{1cm}Os resultados referentes à segunda parte do experimento, sintetizados na Tabela~\ref{tab:defasagem}, permitem observar que o diodo real pode ser interpretado como um diodo ideal acrescido de uma queda de tensão em série. Essa característica manifesta-se diretamente na atenuação verificada entre as tensões de entrada e saída, evidenciando o comportamento não ideal do componente.
+
+\hspace{1cm}A Figura~\ref{} ilustra o funcionamento típico de um retificador de meia onda: a condução ocorre apenas durante a semiciclo positivo, enquanto a polarização reversa do diodo bloqueia a passagem de corrente no semiciclo negativo. Já a Figura~\ref{} apresenta maior atenuação relativa, resultado da utilização de dois diodos em série, cada um contribuindo com sua respectiva queda de tensão.
+
+\hspace{1cm}Na configuração ilustrada na Figura~\ref{}, os diodos encontram-se polarizados de forma oposta, o que impede a condução em ambos os semiciclos e faz com que o circuito se comporte como um circuito aberto, independentemente da tensão aplicada. Em contraste, no caso mostrado na Figura 8, os diodos estão dispostos em paralelo, de modo que o caminho de condução depende da polaridade da fonte: o diodo superior conduz na polarização direta e o inferior conduz na polarização reversa.
+
+\hspace{1cm}Por fim, o circuito correspondente à Figura~\ref{} representa um retificador com capacitor de filtro, também conhecido como retificador de pico. Nesse arranjo, considerando $V_{in}$, $V_{out}$ e $V_t$ como as tensões de entrada, saída e queda no diodo, respectivamente, observam-se dois regimes distintos. Inicialmente, quando $V_{in} > V_{out}$, o diodo conduz e o capacitor carrega até o valor máximo da onda de entrada. Em seguida, com o diodo despolarizado, o capacitor passa a fornecer energia à carga, produzindo uma descarga exponencial dada por $V_{out} = V_{in} \, e^{-t/RC}$. Quando a tensão de entrada volta a superar a tensão no capacitor, o ciclo de carga se reinicia.
+
+%\subsection{Discussão Geral}
+
+Em síntese, os resultados experimentais confirmam o comportamento teórico do diodo semicondutor. A curva direta apresentou limiar próximo de \(0{,}5~\mathrm{V}\), enquanto a curva reversa manteve corrente praticamente nula, evidenciando o adequado bloqueio reverso. Nos circuitos retificadores, cada topologia apresentou características condizentes com sua função prevista, validando os conceitos de condução seletiva, recorte de semiciclo, e filtragem capacitiva.

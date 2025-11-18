@@ -1,0 +1,15 @@
+\section{Introdução}
+
+Os diodos semicondutores constituem dispositivos fundamentais na eletrônica, sendo amplamente aplicados em retificação, proteção, chaveamento e circuitos de filtragem. Sua operação se baseia na formação de uma junção \( \mathrm{PN} \), estrutura que estabelece uma região de depleção e uma barreira de potencial cuja modulação determina o fluxo de corrente no dispositivo. Quando diretamente polarizado, o diodo conduz corrente de forma exponencial em função da tensão aplicada; quando reversamente polarizado, a corrente é drasticamente reduzida, restringindo-se ao regime de saturação até a eventual ocorrência de ruptura em tensões elevadas~\cite{rezende1996}.
+
+O comportamento elétrico de um diodo ideal pode ser descrito pela equação de Shockley~\cite{artemis}:
+\begin{equation}
+    I = I_0 \left( e^{\frac{V}{\eta V_T}} - 1 \right),
+\end{equation}
+em que \(I\) é a corrente conduzida, \(I_0\) é a corrente de saturação reversa, \( \eta \) é o fator de idealidade (\(1 \leq \eta \leq 2\)), e \( V_T = kT/q \) é a tensão térmica, aproximadamente \( 26~\mathrm{mV} \) à temperatura ambiente. 
+
+O dispositivo estudado neste experimento é o diodo retificador BY127, caracterizado por alta tensão reversa máxima (\(800~\mathrm{V}\)) e corrente direta de até \(1~\mathrm{A}\), parâmetros que o tornam adequado para aplicações de retificação em baixa frequência~\cite{BY127MGP93:online}. A compreensão do comportamento de sua curva característica \( I_D \times V_D \) é essencial para o dimensionamento de circuitos com cargas reais e análise de eficiência em processos de conversão AC--DC.
+
+Além da caracterização estática, o experimento abrange a análise dinâmica do diodo sob sinal senoidal de \(100~\mathrm{Hz}\) e \(8~\mathrm{V_{pp}}\). Nesta etapa, são investigadas diferentes topologias de retificação, incluindo meia onda, uso de múltiplos diodos em série, configurações antissérie e antiparalelo, bem como a inserção de filtro capacitivo. Essas montagens permitem observar fenômenos como condução unilateral, aumento da tensão mínima de condução, recorte de semiciclos, condução alternada e redução de ondulação (\textit{ripple}) por ação do capacitor.
+
+%Assim, esta introdução estabelece os fundamentos teóricos necessários para a interpretação dos resultados experimentais apresentados nas próximas seções, articulando conceitos de semicondutores, dispositivos de junção e análise de formas de onda, essenciais à prática de eletrônica aplicada.

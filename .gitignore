@@ -5,3 +5,21 @@ r4.synctex.gz
 r2.synctex.gz
 .aux
 .gz
+
+# Ignore all images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Keep reduced images
+!reduced_*.jpg
+!reduced_*.jpeg
+!reduced_*.png
+!reduced_*.gif
+!reduced_*.bmp
+!reduced_*.tiff
+!reduced_*.webp
