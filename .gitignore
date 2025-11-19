@@ -1,10 +1,11 @@
 __pycache__/
-.log
-.fls
-r4.synctex.gz
-r2.synctex.gz
-.aux
-.gz
+*.log
+*.fls
+*.synctex.gz
+*.aux
+*.gz
+*.fdb_latexmk
+*.out
 
 # Ignore all images
 *.jpg
