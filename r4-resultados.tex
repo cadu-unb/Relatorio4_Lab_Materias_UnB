@@ -132,6 +132,7 @@ A saída corresponde apenas ao semiciclo positivo da senoide, sendo o semiciclo 
 \centering
 \fbox{\begin{minipage}{0.9\linewidth}
 \includegraphics[scale=0.133]{fotos/reduced_2.mat4.jpg}
+\label{fig:circ1}
 %\vspace{2cm}
 %\centering\textit{Inserir aqui a foto correspondente ao Circuito 1.}
 %\vspace{2cm}
@@ -159,6 +160,7 @@ A forma de onda é similar à do circuito 1, porém a condução inicia apenas q
 \fbox{\begin{minipage}{0.9\linewidth}
 %\vspace{2cm}
 \includegraphics[scale=0.133]{fotos/reduced_8.jpg}
+\label{fig:circ2}
 %\centering\textit{Foto do Circuito 2.}
 %\vspace{2cm}
 \end{minipage}}
@@ -179,6 +181,7 @@ Nesta configuração, cada semiciclo é bloqueado por um dos diodos, resultando 
 \fbox{\begin{minipage}{0.9\linewidth}
 %\vspace{2cm}
 \includegraphics[scale=0.133]{fotos/reduced_3.mat4.jpg}
+\label{fig:circ3}
 %\centering\textit{Foto do Circuito 2.}
 %\vspace{2cm}
 \end{minipage}}
@@ -199,6 +202,7 @@ Um diodo conduz no semiciclo positivo e o outro conduz no semiciclo negativo. A 
 \fbox{\begin{minipage}{0.9\linewidth}
 %\vspace{2cm}
 \includegraphics[scale=0.133]{fotos/reduced_5.mat4.jpg}
+\label{fig:circ4}
 %\centering\textit{Foto do Circuito 2.}
 %\vspace{2cm}
 \end{minipage}}
@@ -219,6 +223,7 @@ Com a inclusão de um capacitor em paralelo ao resistor, observa-se um processo 
 \fbox{\begin{minipage}{0.9\linewidth}
 %\vspace{2cm}
 \includegraphics[scale=0.133]{fotos/reduced_4.mat4.jpg}
+\label{fig:circ5}
 %\centering\textit{Foto do Circuito 2.}
 %\vspace{2cm}
 \end{minipage}}
@@ -317,11 +322,11 @@ De forma resumida, a Tabela~\ref{tab:defasagem} apresenta os valores de defasage
 
 \hspace{1cm}Os resultados referentes à segunda parte do experimento, sintetizados na Tabela~\ref{tab:defasagem}, permitem observar que o diodo real pode ser interpretado como um diodo ideal acrescido de uma queda de tensão em série. Essa característica manifesta-se diretamente na atenuação verificada entre as tensões de entrada e saída, evidenciando o comportamento não ideal do componente.
 
-\hspace{1cm}A Figura~\ref{} ilustra o funcionamento típico de um retificador de meia onda: a condução ocorre apenas durante a semiciclo positivo, enquanto a polarização reversa do diodo bloqueia a passagem de corrente no semiciclo negativo. Já a Figura~\ref{} apresenta maior atenuação relativa, resultado da utilização de dois diodos em série, cada um contribuindo com sua respectiva queda de tensão.
+\hspace{1cm}A Figura~\ref{fig:circ1} ilustra o funcionamento típico de um retificador de meia onda: a condução ocorre apenas durante a semiciclo positivo, enquanto a polarização reversa do diodo bloqueia a passagem de corrente no semiciclo negativo. Já a Figura~\ref{fig:circ2} apresenta maior atenuação relativa, resultado da utilização de dois diodos em série, cada um contribuindo com sua respectiva queda de tensão.
 
-\hspace{1cm}Na configuração ilustrada na Figura~\ref{}, os diodos encontram-se polarizados de forma oposta, o que impede a condução em ambos os semiciclos e faz com que o circuito se comporte como um circuito aberto, independentemente da tensão aplicada. Em contraste, no caso mostrado na Figura 8, os diodos estão dispostos em paralelo, de modo que o caminho de condução depende da polaridade da fonte: o diodo superior conduz na polarização direta e o inferior conduz na polarização reversa.
+\hspace{1cm}Na configuração ilustrada na Figura~\ref{fig:circ3}, os diodos encontram-se polarizados de forma oposta, o que impede a condução em ambos os semiciclos e faz com que o circuito se comporte como um circuito aberto, independentemente da tensão aplicada. Em contraste, no caso mostrado na Figura 8, os diodos estão dispostos em paralelo, de modo que o caminho de condução depende da polaridade da fonte: o diodo superior conduz na polarização direta e o inferior conduz na polarização reversa.
 
-\hspace{1cm}Por fim, o circuito correspondente à Figura~\ref{} representa um retificador com capacitor de filtro, também conhecido como retificador de pico. Nesse arranjo, considerando $V_{in}$, $V_{out}$ e $V_t$ como as tensões de entrada, saída e queda no diodo, respectivamente, observam-se dois regimes distintos. Inicialmente, quando $V_{in} > V_{out}$, o diodo conduz e o capacitor carrega até o valor máximo da onda de entrada. Em seguida, com o diodo despolarizado, o capacitor passa a fornecer energia à carga, produzindo uma descarga exponencial dada por $V_{out} = V_{in} \, e^{-t/RC}$. Quando a tensão de entrada volta a superar a tensão no capacitor, o ciclo de carga se reinicia.
+\hspace{1cm}Por fim, o circuito correspondente à Figura~\ref{fig:circ4} representa um retificador com capacitor de filtro, também conhecido como retificador de pico. Nesse arranjo, considerando $V_{in}$, $V_{out}$ e $V_t$ como as tensões de entrada, saída e queda no diodo, respectivamente, observam-se dois regimes distintos. Inicialmente, quando $V_{in} > V_{out}$, o diodo conduz e o capacitor carrega até o valor máximo da onda de entrada. Em seguida, com o diodo despolarizado, o capacitor passa a fornecer energia à carga, produzindo uma descarga exponencial dada por $V_{out} = V_{in} \, e^{-t/RC}$. Quando a tensão de entrada volta a superar a tensão no capacitor, o ciclo de carga se reinicia.
 
 %\subsection{Discussão Geral}
 
