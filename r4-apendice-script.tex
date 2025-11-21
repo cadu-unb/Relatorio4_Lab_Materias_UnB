@@ -1,4 +1,5 @@
 \section{Script Python de plotagem dos dados da tabela}
+\vspace{-3mm}
 \label{app:hall}
 \begin{lstlisting}[language=Python, caption={Levantamento dos pontos da curva característica do diodo}, label={lst:hall}, basicstyle=\ttfamily\small, frame=single, breaklines=true, numbers=left, numberstyle=\tiny, keywordstyle=\color{blue}, commentstyle=\color{green!50!black}, stringstyle=\color{orange}]
 import numpy as np
@@ -8,7 +9,6 @@ import matplotlib.pyplot as plt
 # Tensao aplicada (V)
 Vd = np.array([0.10, 0.20, 0.30, 0.40,
                0.50, 0.60, 0.70, 0.71])
-
 # Corrente medida (mA) -> conversao para A
 Id_mA = np.array([0.0, 0.0, 0.0, 0.0,
                   0.7, 3.3, 29.7, 30.0])
@@ -31,7 +31,6 @@ for x, y in zip(Vd, Id):
              fontsize=8, color='black', rotation=30)
 plt.text(x + 0.005, y-0.001, f'({0.71:.2f} V, {0.03*1000:.1f} mA)',
              fontsize=8, color='black', rotation=30)
-
 plt.xlabel('Tensao no diodo $V_D$ (V)')
 plt.ylabel('Corrente no diodo $I_D$ (A)')
 plt.title('Curva Caracteristica do Diodo BY127 (Polarizacao Direta)')

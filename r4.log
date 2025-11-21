@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.29)  20 NOV 2025 22:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.29)  20 NOV 2025 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1495,7 +1495,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: imagens/PNG/reduced_exp4_curvaID.png Graphic file (type png)
 <use imagens/PNG/reduced_exp4_curvaID.png>
 Package pdftex.def Info: imagens/PNG/reduced_exp4_curvaID.png  used on input line 67.
-(pdftex.def)             Requested size: 447.16759pt x 279.48584pt.
+(pdftex.def)             Requested size: 397.48651pt x 248.43271pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1556,11 +1556,15 @@ Package pdftex.def Info: fotos/reduced_3.mat4.jpg  used on input line 204.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Underfull \vbox (badness 1072) has occurred while \output is active []
+
 <fotos/reduced_5.mat4.jpg, id=995, 1606.0pt x 905.3825pt>
 File: fotos/reduced_5.mat4.jpg Graphic file (type jpg)
 <use fotos/reduced_5.mat4.jpg>
 Package pdftex.def Info: fotos/reduced_5.mat4.jpg  used on input line 225.
 (pdftex.def)             Requested size: 213.59042pt x 120.41159pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1573,8 +1577,6 @@ Package pdftex.def Info: fotos/reduced_IMG_0636.jpeg  used on input line 238.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./imagens/PNG/reduced_exp4_curvaID.png> <./fotos/reduced_2.mat4.jpg> <./fotos/reduced_IMG_0630.jpeg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 <fotos/reduced_4.mat4.jpg, id=1007, 1606.0pt x 905.3825pt>
 File: fotos/reduced_4.mat4.jpg Graphic file (type jpg)
 <use fotos/reduced_4.mat4.jpg>
@@ -1593,20 +1595,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
-(hyperref)                removed on input line 318.
+(hyperref)                removed on input line 319.
 
-) [7 <./fotos/reduced_IMG_0641.jpeg>] (r4-conclusoes.tex
+) (r4-conclusoes.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -10.0pt
 (hyperref)                removed on input line 1.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [7 <./fotos/reduced_IMG_0641.jpeg>])
+Underfull \hbox (badness 10000) in paragraph at lines 11--212
 []\OT1/ptm/m/n/10 Como sug-est[]oes para ap-ri-mora-men-tos fu-turos,
  []
 
-) (r4.bbl
+(r4.bbl
 Underfull \hbox (badness 3861) in paragraph at lines 15--19
 []\OT1/ptm/m/n/9 Vishay.  Minia-ture glass pas-si-vated junc-tion rec-ti-fier,
  []
@@ -1620,14 +1625,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 3.
- [8]
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 35.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 34.
  (C:\Users\rodri\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) [9
-
-] (r4.aux)
+)) [8] (r4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1640,17 +1642,17 @@ Package rerunfilecheck Info: File `r4.out' has not changed.
 ### simple group (level 1) entered at line 214 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 58224 strings out of 474486
- 1501744 string characters out of 5743754
- 2574863 words of memory out of 5000000
+ 58221 strings out of 474486
+ 1501710 string characters out of 5743754
+ 2668130 words of memory out of 5000000
  79646 multiletter control sequences out of 15000+600000
  592197 words of font info for 112 fonts, out of 8000000 for 9000
  1155 hyphenation exceptions out of 8191
- 84i,15n,87p,1056b,2906s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,15n,87p,1056b,1706s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/rodri/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r4.pdf (9 pages, 3669833 bytes).
+Output written on r4.pdf (8 pages, 3668502 bytes).
 PDF statistics:
- 1193 PDF objects out of 1200 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
+ 1187 PDF objects out of 1200 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
  261 words of extra memory for PDF output out of 10000 (max. 10000000)
 
