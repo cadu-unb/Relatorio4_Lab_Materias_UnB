@@ -70,9 +70,9 @@ A Figura~\ref{fig:curvaIV} mostra a relação exponencial entre a corrente e a t
 \end{figure*}
 
 A análise da Tabela~\ref{tab:direta} revela que o diodo inicia sua condução significativa a partir de aproximadamente:
-\[
+\begin{equation}
 V_{\mathrm{TH}} \approx 0{,}5~\mathrm{V},
-\]
+\end{equation}
 valor compatível com diodos de silício de junção retificadora. Acima desse ponto, observa-se crescimento exponencial da corrente, conforme descrito pela equação de Shockley.
 
 A curva resultante apresenta a região não condutora, a região de transição e a região condutora, reproduzindo adequadamente o comportamento teórico esperado.
@@ -132,17 +132,30 @@ A saída corresponde apenas ao semiciclo positivo da senoide, sendo o semiciclo 
 \label{fig:circ1}
 \end{figure}
 
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+    \centering
+%\vspace{2cm}
+\includegraphics[width=0.95\textwidth]{fotos/reduced_IMG_0630.jpeg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 1 (medição da defasagem).}
+\label{fig:circ1_delay}
+\end{figure}
+
 \textbf{Atraso de condução medido:}
-\[
-t_{\mathrm{delay,1}} = 120~\mathrm{us}
-\]
+\begin{equation}
+t_{\mathrm{delay,1}} = 116~\mathrm{us}
+\end{equation}
 
 \subsubsection{Circuito 2: Dois diodos em série}
 
 Com dois diodos em série, a queda total de condução é aproximadamente:
-\[
+\begin{equation}
 V_{\gamma} \approx 2 \times 0{,}7~\mathrm{V} \approx 1{,}4~\mathrm{V}.
-\]
+\end{equation}
 
 A forma de onda é similar à do circuito 1, porém a condução inicia apenas quando a tensão da fonte supera o valor acima.
 
@@ -159,9 +172,22 @@ A forma de onda é similar à do circuito 1, porém a condução inicia apenas q
 \label{fig:circ2}
 \end{figure}
 
-\[
-t_{\mathrm{delay,2}} = = 240~\mathrm{us}
-\]
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+    \centering
+%\vspace{2cm}
+\includegraphics[width=0.95\textwidth]{fotos/reduced_IMG_0633.jpeg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 2 (medição da defasagem).}
+\label{fig:circ2_delay}
+\end{figure}
+
+\begin{equation}
+t_{\mathrm{delay,2}} = 240~\mathrm{us}
+\end{equation}
 
 \subsubsection{Circuito 3: Dois diodos em antissérie}
 
@@ -180,9 +206,9 @@ Nesta configuração, cada semiciclo é bloqueado por um dos diodos, resultando 
 \label{fig:circ3}
 \end{figure}
 
-\[
+\begin{equation}
 t_{\mathrm{delay,3}} = 0
-\]
+\end{equation}
 
 \subsubsection{Circuito 4: Dois diodos em antiparalelo}
 
@@ -201,9 +227,24 @@ Um diodo conduz no semiciclo positivo e o outro conduz no semiciclo negativo. A 
 \label{fig:circ4}
 \end{figure}
 
-\[
-t_{\mathrm{delay,4}} = 540~\mathrm{us}
-\]
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+    \centering
+%\vspace{2cm}
+\includegraphics[width=0.95\textwidth]{fotos/reduced_IMG_0636.jpeg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 4 (medição da defasagem).}
+\label{fig:circ4_delay}
+\end{figure}
+
+\begin{equation}
+t_{\mathrm{delay,4}} = 148~\mathrm{us}
+\end{equation}
+
+Observação: a defasagem foi medida do ponto de cruzamento da onda de entrada até o início da condução na saída. Para contabilizar o tempo total sem condução, deve-se considerar também o intervalo sem condução do semiciclo negativo anterior, ou seja, espera-se algo em torno de $120\cdot 2~\mathrm{us} = 240~\mathrm{us}$ (o dobro do atraso obtido no circuito 1, com apenas um diodo em série)
 
 \subsubsection{Circuito 5: Diodo com filtro capacitivo (meia onda filtrada)}
 
@@ -222,31 +263,56 @@ Com a inclusão de um capacitor em paralelo ao resistor, observa-se um processo 
 \label{fig:circ5}
 \end{figure}
 
-\[
-t_{\mathrm{delay,5}} = 520~\mathrm{ms}
-\]
+\begin{figure}[h]
+\centering
+\fbox{\begin{minipage}{0.9\linewidth}
+    \centering
+%\vspace{2cm}
+\includegraphics[width=0.95\textwidth]{fotos/reduced_IMG_0641.jpeg}
+%\centering\textit{Foto do Circuito 2.}
+%\vspace{2cm}
+\end{minipage}}
+\caption{Forma de onda do Circuito 5 (medição da defasagem).}
+\label{fig:circ5_delay}
+\end{figure}
+
+\begin{equation}
+t_{\mathrm{delay,5}} = 520~\mathrm{\mu s}
+\end{equation}
 
 Para esse circuito, cabe observação quanto à tensão do pico superior, que apresenta uma distorção, quando, na verdade, esperava-se um espelhamento do semi-ciclo inferior. Conforme discutido em laboratório, isso ocorre devido ao descasamento de impedância entre o osciloscópio e a carga representada pelo circuito medido, o que propicia reflexões de ondas eletromagnéticas no circuito e, consequentemente, a distorção observada.
 
 De forma resumida, a Tabela~\ref{tab:defasagem} apresenta os valores de defasagem e atenuação medidos para cada circuito analisado.
 
-\begin{table}[!h]
+\begin{table}[!t]
     \centering
     \caption{Defasagem e Atenuação dos Circuitos}
     \label{tab:defasagem}
     \vspace{0.25cm}
-    \begin{tabular}{ccc}
+    \footnotesize
+    \begin{tabular}{@{}ccc@{}}
         \hline
-        \rule{0pt}{3ex}\textbf{Circuito} & \textbf{Defasagem} [us] & \textbf{Atenuação} [V]\\[5pt]
+        \rule{0pt}{2.6ex}\textbf{Circuito} & \textbf{Defasagem} [\(\mu\)s] & \textbf{Atenuação} [V] \\[3pt]
         \hline
-        \rule{0pt}{3ex} 1 & 120 & 0.720 \\
+        \rule{0pt}{2.4ex}1 & 116 & 0.720 \\
         2 & 240 & 1.32 \\
-        3 & - & - \\
-        4 & 148 & 0.720 \\
-        5 & 520 & 0.720 \\[5pt]
+        3 & $\infty^{[1]}$ & $\approx 4.0^{[2]}$ \\
+        4 & $148^{[3]}$ & 0.720 \\
+        5 & 520 & 0.720 \\[2pt]
+        \hline
+        \multicolumn{3}{@{}p{0.95\columnwidth}@{}}{\footnotesize
+            $^{[1]}$ Atraso infinito, pois o diodo não conduz.
+        }\\[2pt]
+        \multicolumn{3}{@{}p{0.95\columnwidth}@{}}{\footnotesize
+            $^{[2]}$ Valor aproximado equivalente à totalidade da tensão de pico $V_p$, pois o diodo não conduz (atenuação total).
+        }\\[2pt]
+        \multicolumn{3}{@{}p{0.95\columnwidth}@{}}{\footnotesize
+            $^{[3]}$ Atraso entre tensão nula e início da condução no semiciclo positivo. Considerar o dobro do valor para o atraso total, incluindo semiciclo negativo.
+        }\\
         \hline
     \end{tabular}
 \end{table}
+
 
 %\section{ANALISE DOS RESULTADOS EXPERIMENTAIS}
 \subsection{Análise dos Resultados Experimentais}
